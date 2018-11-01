@@ -9,6 +9,24 @@ Imixs-Responsive is basically a responsive layout concept. This means that a web
 Imixs-Responsive is licensed under a Creative Commons Share Alike 4.0 International license.
 http://creativecommons.org/licenses/by-sa/4.0/
 
+## General Layout
+
+Imixs-Responsive is based on a row/column layout as used typical for responsive frameworks:
+
+A row is a container which can be split into 12 sub containers (columns). You can define a column of a width of 1 to 12 elements. The following example splits a row into 3 columns. Each column occupies a quarter of the row width:
+
+	<div class="row">
+		<div class="col-4">1st</div>
+		<div class="col-4">2nd</div>
+		<div class="col-4">3rd</div>
+	</div>
+
+Make sure that the number of columns is always 12. 
+
+	<div class="row">
+		<div class="col-8">1st</div>
+		<div class="col-4">2nd</div>
+	</div>
 
 
 ## Form Layout
