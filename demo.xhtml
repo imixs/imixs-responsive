@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<!-- imixs-responsive css -->
+<link href="imixs-basic.css" charset="UTF-8" type="text/css"
+	rel="stylesheet" />
+<link href="imixs-layout.css" charset="UTF-8" type="text/css"
+	rel="stylesheet" />
+
+
+<!--  font icons -->
+<link
+	href="fonts/open_sans.css?build=#{app.application_build_timestamp}"
+	charset="UTF-8" type="text/css" rel="stylesheet" />
+<link href="fonts/typicons.css?build=#{app.application_build_timestamp}"
+	charset="UTF-8" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+	<h1>Imixs-Responsive - DEMO</h1>
+
+
+<p class="lead">This is a simple demo showing the usage of columns in a responsive design.</p>
+
+	<div class="row">
+		<h2>2 Column Layout</h2>
+
+		<div class="col-6">
+			<h3>some data</h3>
+		</div>
+		<div class="col-6">
+			<h3>some data</h3>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<h2>3 Column Layout</h2>
+
+		<div class="col-4">
+			<h3>some data</h3>
+		</div>
+		<div class="col-4">
+			<h3>some data</h3>
+		</div>
+		<div class="col-4">
+			<h3>some data</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<h2>Mixed Column Layout</h2>
+
+		<div class="col-6">
+			<h3>1st column</h3>
+		</div>
+		<div class="col-6">
+			<div class="row ">
+				<h3>2nd column</h3>
+				<p>Here the columns are 'nested' which skips the margins left and right</p>
+
+				<div class="col-4 nested">
+					<h4>some data</h4>
+				</div>
+				<div class="col-4 nested">
+					<h4>some data</h4>
+				</div>
+				<div class="col-4 nested">
+					<h4>some data</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+
+</html>
